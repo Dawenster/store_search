@@ -16,8 +16,8 @@
 		26416D291791F14500C3B077 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D281791F14500C3B077 /* Default.png */; };
 		26416D2B1791F14500C3B077 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D2A1791F14500C3B077 /* Default@2x.png */; };
 		26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D2C1791F14500C3B077 /* Default-568h@2x.png */; };
-		26416D301791F14500C3B077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D2F1791F14500C3B077 /* ViewController.m */; };
-		26416D331791F14500C3B077 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D311791F14500C3B077 /* ViewController.xib */; };
+		26416D301791F14500C3B077 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D2F1791F14500C3B077 /* SearchViewController.m */; };
+		26416D331791F14500C3B077 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D311791F14500C3B077 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		26416D281791F14500C3B077 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		26416D2A1791F14500C3B077 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		26416D2C1791F14500C3B077 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		26416D2E1791F14500C3B077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26416D2F1791F14500C3B077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		26416D321791F14500C3B077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		26416D2E1791F14500C3B077 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		26416D2F1791F14500C3B077 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		26416D321791F14500C3B077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				26416D251791F14500C3B077 /* AppDelegate.h */,
 				26416D261791F14500C3B077 /* AppDelegate.m */,
-				26416D2E1791F14500C3B077 /* ViewController.h */,
-				26416D2F1791F14500C3B077 /* ViewController.m */,
-				26416D311791F14500C3B077 /* ViewController.xib */,
+				26416D2E1791F14500C3B077 /* SearchViewController.h */,
+				26416D2F1791F14500C3B077 /* SearchViewController.m */,
+				26416D311791F14500C3B077 /* SearchViewController.xib */,
 				26416D1D1791F14500C3B077 /* Supporting Files */,
 			);
 			path = StoreSearch;
@@ -162,7 +162,7 @@
 				26416D291791F14500C3B077 /* Default.png in Resources */,
 				26416D2B1791F14500C3B077 /* Default@2x.png in Resources */,
 				26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */,
-				26416D331791F14500C3B077 /* ViewController.xib in Resources */,
+				26416D331791F14500C3B077 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +175,7 @@
 			files = (
 				26416D231791F14500C3B077 /* main.m in Sources */,
 				26416D271791F14500C3B077 /* AppDelegate.m in Sources */,
-				26416D301791F14500C3B077 /* ViewController.m in Sources */,
+				26416D301791F14500C3B077 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +190,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		26416D311791F14500C3B077 /* ViewController.xib */ = {
+		26416D311791F14500C3B077 /* SearchViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				26416D321791F14500C3B077 /* en */,
 			);
-			name = ViewController.xib;
+			name = SearchViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
