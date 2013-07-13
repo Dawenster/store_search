@@ -19,6 +19,24 @@
 		26416D301791F14500C3B077 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D2F1791F14500C3B077 /* SearchViewController.m */; };
 		26416D331791F14500C3B077 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D311791F14500C3B077 /* SearchViewController.xib */; };
 		26416D3B1791FFEB00C3B077 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D3A1791FFEB00C3B077 /* SearchResult.m */; };
+		26416D4C179205A800C3B077 /* BarTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D3D179205A800C3B077 /* BarTexture.png */; };
+		26416D4D179205A800C3B077 /* BarTexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D3E179205A800C3B077 /* BarTexture@2x.png */; };
+		26416D4E179205A800C3B077 /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D3F179205A800C3B077 /* CloseButton.png */; };
+		26416D4F179205A800C3B077 /* CloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D40179205A800C3B077 /* CloseButton@2x.png */; };
+		26416D50179205A800C3B077 /* DetailPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D41179205A800C3B077 /* DetailPlaceholder.png */; };
+		26416D51179205A800C3B077 /* DetailPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D42179205A800C3B077 /* DetailPlaceholder@2x.png */; };
+		26416D52179205A800C3B077 /* LandscapeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D43179205A800C3B077 /* LandscapeBackground.png */; };
+		26416D53179205A800C3B077 /* LandscapeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D44179205A800C3B077 /* LandscapeButton.png */; };
+		26416D54179205A800C3B077 /* LandscapeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D45179205A800C3B077 /* LandscapeButton@2x.png */; };
+		26416D55179205A800C3B077 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D46179205A800C3B077 /* Placeholder.png */; };
+		26416D56179205A800C3B077 /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D47179205A800C3B077 /* Placeholder@2x.png */; };
+		26416D57179205A800C3B077 /* SelectedTableCellGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D48179205A800C3B077 /* SelectedTableCellGradient.png */; };
+		26416D58179205A800C3B077 /* StoreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D49179205A800C3B077 /* StoreButton.png */; };
+		26416D59179205A800C3B077 /* StoreButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D4A179205A800C3B077 /* StoreButton@2x.png */; };
+		26416D5A179205A800C3B077 /* TableCellGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D4B179205A800C3B077 /* TableCellGradient.png */; };
+		26416D5C179205D900C3B077 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D5B179205D900C3B077 /* SearchResultCell.xib */; };
+		26416D5F1792097700C3B077 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D5E1792097700C3B077 /* SearchResultCell.m */; };
+		26416D6117920C9000C3B077 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D6017920C9000C3B077 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +58,25 @@
 		26416D321791F14500C3B077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchViewController.xib; sourceTree = "<group>"; };
 		26416D391791FFEB00C3B077 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
 		26416D3A1791FFEB00C3B077 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		26416D3D179205A800C3B077 /* BarTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarTexture.png; sourceTree = "<group>"; };
+		26416D3E179205A800C3B077 /* BarTexture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarTexture@2x.png"; sourceTree = "<group>"; };
+		26416D3F179205A800C3B077 /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		26416D40179205A800C3B077 /* CloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseButton@2x.png"; sourceTree = "<group>"; };
+		26416D41179205A800C3B077 /* DetailPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailPlaceholder.png; sourceTree = "<group>"; };
+		26416D42179205A800C3B077 /* DetailPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DetailPlaceholder@2x.png"; sourceTree = "<group>"; };
+		26416D43179205A800C3B077 /* LandscapeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandscapeBackground.png; sourceTree = "<group>"; };
+		26416D44179205A800C3B077 /* LandscapeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandscapeButton.png; sourceTree = "<group>"; };
+		26416D45179205A800C3B077 /* LandscapeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LandscapeButton@2x.png"; sourceTree = "<group>"; };
+		26416D46179205A800C3B077 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		26416D47179205A800C3B077 /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder@2x.png"; sourceTree = "<group>"; };
+		26416D48179205A800C3B077 /* SelectedTableCellGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectedTableCellGradient.png; sourceTree = "<group>"; };
+		26416D49179205A800C3B077 /* StoreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoreButton.png; sourceTree = "<group>"; };
+		26416D4A179205A800C3B077 /* StoreButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StoreButton@2x.png"; sourceTree = "<group>"; };
+		26416D4B179205A800C3B077 /* TableCellGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableCellGradient.png; sourceTree = "<group>"; };
+		26416D5B179205D900C3B077 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		26416D5D1792097700C3B077 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		26416D5E1792097700C3B077 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		26416D6017920C9000C3B077 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +128,13 @@
 				26416D2E1791F14500C3B077 /* SearchViewController.h */,
 				26416D2F1791F14500C3B077 /* SearchViewController.m */,
 				26416D311791F14500C3B077 /* SearchViewController.xib */,
+				26416D5D1792097700C3B077 /* SearchResultCell.h */,
+				26416D5E1792097700C3B077 /* SearchResultCell.m */,
+				26416D5B179205D900C3B077 /* SearchResultCell.xib */,
+				26416D6017920C9000C3B077 /* NothingFoundCell.xib */,
 				26416D391791FFEB00C3B077 /* SearchResult.h */,
 				26416D3A1791FFEB00C3B077 /* SearchResult.m */,
+				26416D3C179205A800C3B077 /* Images */,
 				26416D1D1791F14500C3B077 /* Supporting Files */,
 			);
 			path = StoreSearch;
@@ -110,6 +152,28 @@
 				26416D2C1791F14500C3B077 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26416D3C179205A800C3B077 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26416D3D179205A800C3B077 /* BarTexture.png */,
+				26416D3E179205A800C3B077 /* BarTexture@2x.png */,
+				26416D3F179205A800C3B077 /* CloseButton.png */,
+				26416D40179205A800C3B077 /* CloseButton@2x.png */,
+				26416D41179205A800C3B077 /* DetailPlaceholder.png */,
+				26416D42179205A800C3B077 /* DetailPlaceholder@2x.png */,
+				26416D43179205A800C3B077 /* LandscapeBackground.png */,
+				26416D44179205A800C3B077 /* LandscapeButton.png */,
+				26416D45179205A800C3B077 /* LandscapeButton@2x.png */,
+				26416D46179205A800C3B077 /* Placeholder.png */,
+				26416D47179205A800C3B077 /* Placeholder@2x.png */,
+				26416D48179205A800C3B077 /* SelectedTableCellGradient.png */,
+				26416D49179205A800C3B077 /* StoreButton.png */,
+				26416D4A179205A800C3B077 /* StoreButton@2x.png */,
+				26416D4B179205A800C3B077 /* TableCellGradient.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +232,23 @@
 				26416D2B1791F14500C3B077 /* Default@2x.png in Resources */,
 				26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */,
 				26416D331791F14500C3B077 /* SearchViewController.xib in Resources */,
+				26416D4C179205A800C3B077 /* BarTexture.png in Resources */,
+				26416D4D179205A800C3B077 /* BarTexture@2x.png in Resources */,
+				26416D4E179205A800C3B077 /* CloseButton.png in Resources */,
+				26416D4F179205A800C3B077 /* CloseButton@2x.png in Resources */,
+				26416D50179205A800C3B077 /* DetailPlaceholder.png in Resources */,
+				26416D51179205A800C3B077 /* DetailPlaceholder@2x.png in Resources */,
+				26416D52179205A800C3B077 /* LandscapeBackground.png in Resources */,
+				26416D53179205A800C3B077 /* LandscapeButton.png in Resources */,
+				26416D54179205A800C3B077 /* LandscapeButton@2x.png in Resources */,
+				26416D55179205A800C3B077 /* Placeholder.png in Resources */,
+				26416D56179205A800C3B077 /* Placeholder@2x.png in Resources */,
+				26416D57179205A800C3B077 /* SelectedTableCellGradient.png in Resources */,
+				26416D58179205A800C3B077 /* StoreButton.png in Resources */,
+				26416D59179205A800C3B077 /* StoreButton@2x.png in Resources */,
+				26416D5A179205A800C3B077 /* TableCellGradient.png in Resources */,
+				26416D5C179205D900C3B077 /* SearchResultCell.xib in Resources */,
+				26416D6117920C9000C3B077 /* NothingFoundCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +263,7 @@
 				26416D271791F14500C3B077 /* AppDelegate.m in Sources */,
 				26416D301791F14500C3B077 /* SearchViewController.m in Sources */,
 				26416D3B1791FFEB00C3B077 /* SearchResult.m in Sources */,
+				26416D5F1792097700C3B077 /* SearchResultCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
