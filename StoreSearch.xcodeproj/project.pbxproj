@@ -18,6 +18,7 @@
 		26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D2C1791F14500C3B077 /* Default-568h@2x.png */; };
 		26416D301791F14500C3B077 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D2F1791F14500C3B077 /* SearchViewController.m */; };
 		26416D331791F14500C3B077 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D311791F14500C3B077 /* SearchViewController.xib */; };
+		26416D3B1791FFEB00C3B077 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D3A1791FFEB00C3B077 /* SearchResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		26416D2E1791F14500C3B077 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		26416D2F1791F14500C3B077 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		26416D321791F14500C3B077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchViewController.xib; sourceTree = "<group>"; };
+		26416D391791FFEB00C3B077 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		26416D3A1791FFEB00C3B077 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				26416D2E1791F14500C3B077 /* SearchViewController.h */,
 				26416D2F1791F14500C3B077 /* SearchViewController.m */,
 				26416D311791F14500C3B077 /* SearchViewController.xib */,
+				26416D391791FFEB00C3B077 /* SearchResult.h */,
+				26416D3A1791FFEB00C3B077 /* SearchResult.m */,
 				26416D1D1791F14500C3B077 /* Supporting Files */,
 			);
 			path = StoreSearch;
@@ -176,6 +181,7 @@
 				26416D231791F14500C3B077 /* main.m in Sources */,
 				26416D271791F14500C3B077 /* AppDelegate.m in Sources */,
 				26416D301791F14500C3B077 /* SearchViewController.m in Sources */,
+				26416D3B1791FFEB00C3B077 /* SearchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoreSearch/StoreSearch-Prefix.pch";
 				INFOPLIST_FILE = "StoreSearch/StoreSearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoreSearch/StoreSearch-Prefix.pch";
 				INFOPLIST_FILE = "StoreSearch/StoreSearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
