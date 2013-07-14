@@ -8,6 +8,8 @@
 
 #import "DetailViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "SearchResult.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface DetailViewController ()
 
@@ -43,6 +45,24 @@
     self.backgroundView.layer.borderColor = [UIColor whiteColor].CGColor;
     self.backgroundView.layer.borderWidth = 3.0f;
     self.backgroundView.layer.cornerRadius = 10.0f;
+    
+    self.nameLabel.text = self.searchResult.name;
+    
+    NSString *artistName = self.searchResult.artistName;
+    if (artistName == nil) {
+        artistName = @"Unknown";
+    }
+    
+    self.artistNameLabel.text = artistName;
+    self.kindLabel.text = [self.searchResult kindForDisplay];
+    self.genreLabel.text = self.searchResult.genre;
+    
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    [formatter setCurrencyCode:self.searchResult.currency];
+    self.priceLabel.text = [formatter stringFromNumber:self.searchResult.price];
+    
+    [self.artworkImageView setImageWithURL:[NSURL URLWithString:self.searchResult.artworkURL100] placeholderImage:[UIImage imageNamed:@"DetailPlaceholder"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,9 +78,15 @@
     [self removeFromParentViewController];
 }
 
+- (IBAction)openInStore:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.searchResult.storeURL]];
+}
+
 - (void)dealloc
 {
     NSLog(@"dealloc %@", self);
+    [self.artworkImageView cancelImageRequestOperation];
 }
 
 @end

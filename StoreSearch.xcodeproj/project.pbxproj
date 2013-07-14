@@ -60,6 +60,7 @@
 		269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263EA1792498C00F1FF02 /* DetailViewController.m */; };
 		269263ED1792498C00F1FF02 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269263EB1792498C00F1FF02 /* DetailViewController.xib */; };
 		269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269263EE1792536200F1FF02 /* QuartzCore.framework */; };
+		269263F217926D3D00F1FF02 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F117926D3D00F1FF02 /* GradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +137,8 @@
 		269263EA1792498C00F1FF02 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		269263EB1792498C00F1FF02 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		269263EE1792536200F1FF02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		269263F017926D3D00F1FF02 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		269263F117926D3D00F1FF02 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,8 @@
 				269263E91792498C00F1FF02 /* DetailViewController.h */,
 				269263EA1792498C00F1FF02 /* DetailViewController.m */,
 				269263EB1792498C00F1FF02 /* DetailViewController.xib */,
+				269263F017926D3D00F1FF02 /* GradientView.h */,
+				269263F117926D3D00F1FF02 /* GradientView.m */,
 				26416D5D1792097700C3B077 /* SearchResultCell.h */,
 				26416D5E1792097700C3B077 /* SearchResultCell.m */,
 				26416D5B179205D900C3B077 /* SearchResultCell.xib */,
@@ -406,6 +411,7 @@
 				26416D9717922CC400C3B077 /* AFXMLRequestOperation.m in Sources */,
 				26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */,
 				269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */,
+				269263F217926D3D00F1FF02 /* GradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
