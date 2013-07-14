@@ -14,6 +14,7 @@
 {
     if ((self = [super initWithFrame:frame])) {
         self.backgroundColor = [UIColor clearColor];
+        self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     }
     return self;
 }
@@ -35,6 +36,11 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextDrawRadialGradient(context, gradient, point, 0, point, radius, kCGGradientDrawsAfterEndLocation);
     CGGradientRelease(gradient);
+}
+
+- (void)dealloc
+{
+    NSLog(@"dealloc %@", self);
 }
 
 @end
