@@ -57,6 +57,9 @@
 		26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D8E17922CC400C3B077 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		269263E717923B1900F1FF02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 269263E517923B1900F1FF02 /* Default.png */; };
 		269263E817923B1900F1FF02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 269263E617923B1900F1FF02 /* Default@2x.png */; };
+		269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263EA1792498C00F1FF02 /* DetailViewController.m */; };
+		269263ED1792498C00F1FF02 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269263EB1792498C00F1FF02 /* DetailViewController.xib */; };
+		269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269263EE1792536200F1FF02 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +132,10 @@
 		26416D8E17922CC400C3B077 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		269263E517923B1900F1FF02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		269263E617923B1900F1FF02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		269263E91792498C00F1FF02 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		269263EA1792498C00F1FF02 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		269263EB1792498C00F1FF02 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		269263EE1792536200F1FF02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */,
 				26416D171791F14400C3B077 /* UIKit.framework in Frameworks */,
 				26416D191791F14500C3B077 /* Foundation.framework in Frameworks */,
 				26416D1B1791F14500C3B077 /* CoreGraphics.framework in Frameworks */,
@@ -148,6 +156,7 @@
 		26416D0A1791F14400C3B077 = {
 			isa = PBXGroup;
 			children = (
+				269263EE1792536200F1FF02 /* QuartzCore.framework */,
 				26416D1C1791F14500C3B077 /* StoreSearch */,
 				26416D151791F14400C3B077 /* Frameworks */,
 				26416D141791F14400C3B077 /* Products */,
@@ -180,6 +189,9 @@
 				26416D2E1791F14500C3B077 /* SearchViewController.h */,
 				26416D2F1791F14500C3B077 /* SearchViewController.m */,
 				26416D311791F14500C3B077 /* SearchViewController.xib */,
+				269263E91792498C00F1FF02 /* DetailViewController.h */,
+				269263EA1792498C00F1FF02 /* DetailViewController.m */,
+				269263EB1792498C00F1FF02 /* DetailViewController.xib */,
 				26416D5D1792097700C3B077 /* SearchResultCell.h */,
 				26416D5E1792097700C3B077 /* SearchResultCell.m */,
 				26416D5B179205D900C3B077 /* SearchResultCell.xib */,
@@ -367,6 +379,7 @@
 				26416D76179222B300C3B077 /* LoadingCell.xib in Resources */,
 				269263E717923B1900F1FF02 /* Default.png in Resources */,
 				269263E817923B1900F1FF02 /* Default@2x.png in Resources */,
+				269263ED1792498C00F1FF02 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +405,7 @@
 				26416D9617922CC400C3B077 /* AFURLConnectionOperation.m in Sources */,
 				26416D9717922CC400C3B077 /* AFXMLRequestOperation.m in Sources */,
 				26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */,
+				269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
