@@ -13,8 +13,6 @@
 		26416D211791F14500C3B077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26416D1F1791F14500C3B077 /* InfoPlist.strings */; };
 		26416D231791F14500C3B077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D221791F14500C3B077 /* main.m */; };
 		26416D271791F14500C3B077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D261791F14500C3B077 /* AppDelegate.m */; };
-		26416D291791F14500C3B077 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D281791F14500C3B077 /* Default.png */; };
-		26416D2B1791F14500C3B077 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D2A1791F14500C3B077 /* Default@2x.png */; };
 		26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26416D2C1791F14500C3B077 /* Default-568h@2x.png */; };
 		26416D301791F14500C3B077 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D2F1791F14500C3B077 /* SearchViewController.m */; };
 		26416D331791F14500C3B077 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26416D311791F14500C3B077 /* SearchViewController.xib */; };
@@ -72,8 +70,6 @@
 		26416D241791F14500C3B077 /* StoreSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoreSearch-Prefix.pch"; sourceTree = "<group>"; };
 		26416D251791F14500C3B077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26416D261791F14500C3B077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26416D281791F14500C3B077 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		26416D2A1791F14500C3B077 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		26416D2C1791F14500C3B077 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		26416D2E1791F14500C3B077 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		26416D2F1791F14500C3B077 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
@@ -207,8 +203,6 @@
 				26416D1F1791F14500C3B077 /* InfoPlist.strings */,
 				26416D221791F14500C3B077 /* main.m */,
 				26416D241791F14500C3B077 /* StoreSearch-Prefix.pch */,
-				26416D281791F14500C3B077 /* Default.png */,
-				26416D2A1791F14500C3B077 /* Default@2x.png */,
 				26416D2C1791F14500C3B077 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -342,8 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				26416D211791F14500C3B077 /* InfoPlist.strings in Resources */,
-				26416D291791F14500C3B077 /* Default.png in Resources */,
-				26416D2B1791F14500C3B077 /* Default@2x.png in Resources */,
 				26416D2D1791F14500C3B077 /* Default-568h@2x.png in Resources */,
 				26416D331791F14500C3B077 /* SearchViewController.xib in Resources */,
 				26416D4C179205A800C3B077 /* BarTexture.png in Resources */,
