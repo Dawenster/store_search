@@ -61,6 +61,8 @@
 		269263ED1792498C00F1FF02 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269263EB1792498C00F1FF02 /* DetailViewController.xib */; };
 		269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269263EE1792536200F1FF02 /* QuartzCore.framework */; };
 		269263F217926D3D00F1FF02 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F117926D3D00F1FF02 /* GradientView.m */; };
+		269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F41793705E00F1FF02 /* LandscapeViewController.m */; };
+		269263F71793705E00F1FF02 /* LandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269263F51793705E00F1FF02 /* LandscapeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +141,9 @@
 		269263EE1792536200F1FF02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		269263F017926D3D00F1FF02 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		269263F117926D3D00F1FF02 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		269263F31793705E00F1FF02 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		269263F41793705E00F1FF02 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		269263F51793705E00F1FF02 /* LandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +207,9 @@
 				26416D5B179205D900C3B077 /* SearchResultCell.xib */,
 				26416D6017920C9000C3B077 /* NothingFoundCell.xib */,
 				26416D75179222B300C3B077 /* LoadingCell.xib */,
+				269263F31793705E00F1FF02 /* LandscapeViewController.h */,
+				269263F41793705E00F1FF02 /* LandscapeViewController.m */,
+				269263F51793705E00F1FF02 /* LandscapeViewController.xib */,
 				26416D391791FFEB00C3B077 /* SearchResult.h */,
 				26416D3A1791FFEB00C3B077 /* SearchResult.m */,
 				26416D7817922CC300C3B077 /* AFNetworking */,
@@ -385,6 +393,7 @@
 				269263E717923B1900F1FF02 /* Default.png in Resources */,
 				269263E817923B1900F1FF02 /* Default@2x.png in Resources */,
 				269263ED1792498C00F1FF02 /* DetailViewController.xib in Resources */,
+				269263F71793705E00F1FF02 /* LandscapeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +421,7 @@
 				26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */,
 				269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */,
 				269263F217926D3D00F1FF02 /* GradientView.m in Sources */,
+				269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
