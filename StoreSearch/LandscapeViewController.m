@@ -10,6 +10,8 @@
 #import "SearchResult.h"
 #import "AFImageCache.h"
 #import "Search.h"
+#import "DetailViewController.h"
+#import "UIImage+Resize.h"
 
 @interface LandscapeViewController ()
 @property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
@@ -32,6 +34,16 @@
     return self;
 }
 
+- (void)buttonPressed:(UIButton *)sender
+{
+    DetailViewController *controller = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    
+    SearchResult *searchResult = [self.search.searchResults objectAtIndex:sender.tag - 2000];
+    controller.searchResult = searchResult;
+    
+    [controller presentInParentViewController:self];
+}
+
 - (void)tileButtons
 {
     const CGFloat itemWidth = 96.0f;
@@ -50,6 +62,8 @@
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = CGRectMake(column*itemWidth + marginHorz, row*itemHeight + marginVert, buttonWidth, buttonHeight);
         [button setBackgroundImage:[UIImage imageNamed:@"LandscapeButton"] forState:UIControlStateNormal];
+        button.tag = 2000 + index;
+        [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.scrollView addSubview:button];
         [self downloadImageForSearchResult:searchResult andPlaceOnButton:button];
         
@@ -86,13 +100,55 @@
                      completion:nil];
 }
 
+- (void)showSpinner
+{
+    UIActivityIndicatorView *spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    spinner.center = CGPointMake(CGRectGetMidX(self.scrollView.bounds) + 0.5f, CGRectGetMidY(self.scrollView.bounds) + 0.5f);
+    spinner.tag = 1000;
+    [self.view addSubview:spinner];
+    [spinner startAnimating];
+}
+
+- (void)hideSpinner
+{
+    [[self.view viewWithTag:1000] removeFromSuperview];
+}
+
+- (void)showNothingFoundLabel
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+    label.text = @"Nothing Found";
+    label.backgroundColor = [UIColor clearColor];
+    label.textColor = [UIColor whiteColor];
+    
+    [label sizeToFit];
+    CGRect rect = label.frame;
+    rect.size.width = ceilf(rect.size.width/2.0f) * 2.0f;  // make even
+    rect.size.height = ceilf(rect.size.height/2.0f) * 2.0f;  // make even
+    label.frame = rect;
+    label.center = CGPointMake(CGRectGetMidX(self.scrollView.bounds), CGRectGetMidY(self.scrollView.bounds));
+    
+    [self.view addSubview:label];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"LandscapeBackground"]];
     
-    [self tileButtons];
+    self.pageControl.numberOfPages = 1;
+    self.pageControl.currentPage = 0;
+    
+    if (self.search != nil) {
+        if (self.search.isLoading) {
+            [self showSpinner];
+        } else if ([self.search.searchResults count] == 0) {
+            [self showNothingFoundLabel];
+        } else {
+            [self tileButtons];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -114,6 +170,7 @@
     [urlRequest setHTTPShouldUsePipelining:YES];
     
     UIImage *cachedImage = [[AFImageCache sharedImageCache] cachedImageForURL:[urlRequest URL] cacheName:nil];
+    cachedImage = [cachedImage resizedImageWithBounds:CGSizeMake(60, 60)];
     if (cachedImage != nil) {
         [button setImage:cachedImage forState:UIControlStateNormal];
     } else {
@@ -125,6 +182,17 @@
         } failure:nil];
         
         [imageRequestOperationQueue addOperation:requestOperation];
+    }
+}
+
+- (void)searchResultsReceived
+{
+    [self hideSpinner];
+    
+    if ([self.search.searchResults count] == 0) {
+        [self showNothingFoundLabel];
+    } else {
+        [self tileButtons];
     }
 }
 

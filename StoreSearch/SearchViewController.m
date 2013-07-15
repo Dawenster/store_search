@@ -186,7 +186,6 @@ static NSString *const LoadingCellIdentifier = @"LoadingCell";
 - (void)performSearch
 {
     search = [[Search alloc] init];
-    NSLog(@"allocated %@", search);
     
     [search performSearchForText:self.searchBar.text
                         category:self.segmentedControl.selectedSegmentIndex
@@ -195,6 +194,7 @@ static NSString *const LoadingCellIdentifier = @"LoadingCell";
                               [self showNetworkError];
                           }
                           
+                          [landscapeViewController searchResultsReceived];
                           [self.tableView reloadData];
                       }];
     

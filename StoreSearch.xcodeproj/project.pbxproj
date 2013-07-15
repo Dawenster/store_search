@@ -64,6 +64,7 @@
 		269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F41793705E00F1FF02 /* LandscapeViewController.m */; };
 		269263F71793705E00F1FF02 /* LandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269263F51793705E00F1FF02 /* LandscapeViewController.xib */; };
 		269263FA1793822300F1FF02 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F91793822300F1FF02 /* Search.m */; };
+		2692640117938A2700F1FF02 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692640017938A2700F1FF02 /* UIImage+Resize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,8 @@
 		269263F51793705E00F1FF02 /* LandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeViewController.xib; sourceTree = "<group>"; };
 		269263F81793822300F1FF02 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
 		269263F91793822300F1FF02 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		269263FF17938A2700F1FF02 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		2692640017938A2700F1FF02 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 				26416D3A1791FFEB00C3B077 /* SearchResult.m */,
 				269263F81793822300F1FF02 /* Search.h */,
 				269263F91793822300F1FF02 /* Search.m */,
+				269263FF17938A2700F1FF02 /* UIImage+Resize.h */,
+				2692640017938A2700F1FF02 /* UIImage+Resize.m */,
 				26416D7817922CC300C3B077 /* AFNetworking */,
 				26416D6217920ED000C3B077 /* Icon */,
 				26416D3C179205A800C3B077 /* Images */,
@@ -428,6 +433,7 @@
 				269263F217926D3D00F1FF02 /* GradientView.m in Sources */,
 				269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */,
 				269263FA1793822300F1FF02 /* Search.m in Sources */,
+				2692640117938A2700F1FF02 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
