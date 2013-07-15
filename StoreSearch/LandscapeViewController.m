@@ -9,6 +9,7 @@
 #import "LandscapeViewController.h"
 #import "SearchResult.h"
 #import "AFImageCache.h"
+#import "Search.h"
 
 @interface LandscapeViewController ()
 @property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
@@ -44,7 +45,7 @@
     int row = 0;
     int column = 0;
     
-    for (SearchResult *searchResult in self.searchResults) {
+    for (SearchResult *searchResult in self.search.searchResults) {
         
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = CGRectMake(column*itemWidth + marginHorz, row*itemHeight + marginVert, buttonWidth, buttonHeight);
@@ -60,7 +61,7 @@
         }
     }
     
-    int numPages = ceilf([self.searchResults count] / 15.0f);
+    int numPages = ceilf([self.search.searchResults count] / 15.0f);
     self.scrollView.contentSize = CGSizeMake(numPages*480.0f, self.scrollView.bounds.size.height);
     
     self.pageControl.numberOfPages = numPages;
