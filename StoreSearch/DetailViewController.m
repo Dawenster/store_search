@@ -76,7 +76,7 @@
     
     NSString *artistName = self.searchResult.artistName;
     if (artistName == nil) {
-        artistName = @"Unknown";
+        artistName = NSLocalizedString(@"Unknown", @"Localized kind: Unknown");
     }
     
     self.artistNameLabel.text = artistName;
