@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260495741794623400C46E4E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260495731794623400C46E4E /* DetailViewController.m */; };
+		26049576179463E200C46E4E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26049575179463E200C46E4E /* MessageUI.framework */; };
+		2604957C1794651600C46E4E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 260495781794651600C46E4E /* Default-Landscape@2x~ipad.png */; };
+		2604957D1794651600C46E4E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 260495791794651600C46E4E /* Default-Landscape~ipad.png */; };
+		2604957E1794651600C46E4E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2604957A1794651600C46E4E /* Default-Portrait@2x~ipad.png */; };
+		2604957F1794651600C46E4E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2604957B1794651600C46E4E /* Default-Portrait~ipad.png */; };
 		26416D171791F14400C3B077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26416D161791F14400C3B077 /* UIKit.framework */; };
 		26416D191791F14500C3B077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26416D181791F14400C3B077 /* Foundation.framework */; };
 		26416D1B1791F14500C3B077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26416D1A1791F14500C3B077 /* CoreGraphics.framework */; };
@@ -53,9 +59,10 @@
 		26416D9717922CC400C3B077 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D8C17922CC400C3B077 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused"; }; };
 		26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 26416D8E17922CC400C3B077 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		265B3E6617939DB9006ECE26 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 265B3E6417939DB9006ECE26 /* Localizable.strings */; };
+		265B3E691794585B006ECE26 /* DetailViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265B3E671794585B006ECE26 /* DetailViewController~ipad.xib */; };
+		265B3E7017945D3C006ECE26 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B3E6F17945D3C006ECE26 /* MenuViewController.m */; };
 		269263E717923B1900F1FF02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 269263E517923B1900F1FF02 /* Default.png */; };
 		269263E817923B1900F1FF02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 269263E617923B1900F1FF02 /* Default@2x.png */; };
-		269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263EA1792498C00F1FF02 /* DetailViewController.m */; };
 		269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269263EE1792536200F1FF02 /* QuartzCore.framework */; };
 		269263F217926D3D00F1FF02 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F117926D3D00F1FF02 /* GradientView.m */; };
 		269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269263F41793705E00F1FF02 /* LandscapeViewController.m */; };
@@ -69,6 +76,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260495731794623400C46E4E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		26049575179463E200C46E4E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		260495781794651600C46E4E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		260495791794651600C46E4E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		2604957A1794651600C46E4E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		2604957B1794651600C46E4E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		26416D131791F14400C3B077 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26416D161791F14400C3B077 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26416D181791F14400C3B077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,10 +147,13 @@
 		26416D8D17922CC400C3B077 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		26416D8E17922CC400C3B077 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		265B3E6517939DB9006ECE26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		265B3E681794585B006ECE26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/DetailViewController~ipad.xib"; sourceTree = "<group>"; };
+		265B3E6D17945AE6006ECE26 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "zh-Hant.lproj/DetailViewController~ipad.xib"; sourceTree = "<group>"; };
+		265B3E6E17945D3C006ECE26 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		265B3E6F17945D3C006ECE26 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		269263E517923B1900F1FF02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		269263E617923B1900F1FF02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		269263E91792498C00F1FF02 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		269263EA1792498C00F1FF02 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		269263EE1792536200F1FF02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		269263F017926D3D00F1FF02 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		269263F117926D3D00F1FF02 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
@@ -164,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26049576179463E200C46E4E /* MessageUI.framework in Frameworks */,
 				269263EF1792536200F1FF02 /* QuartzCore.framework in Frameworks */,
 				26416D171791F14400C3B077 /* UIKit.framework in Frameworks */,
 				26416D191791F14500C3B077 /* Foundation.framework in Frameworks */,
@@ -174,9 +191,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260495771794651500C46E4E /* Launch Images iPad */ = {
+			isa = PBXGroup;
+			children = (
+				260495781794651600C46E4E /* Default-Landscape@2x~ipad.png */,
+				260495791794651600C46E4E /* Default-Landscape~ipad.png */,
+				2604957A1794651600C46E4E /* Default-Portrait@2x~ipad.png */,
+				2604957B1794651600C46E4E /* Default-Portrait~ipad.png */,
+			);
+			path = "Launch Images iPad";
+			sourceTree = "<group>";
+		};
 		26416D0A1791F14400C3B077 = {
 			isa = PBXGroup;
 			children = (
+				26049575179463E200C46E4E /* MessageUI.framework */,
 				269263EE1792536200F1FF02 /* QuartzCore.framework */,
 				26416D1C1791F14500C3B077 /* StoreSearch */,
 				26416D151791F14400C3B077 /* Frameworks */,
@@ -211,7 +240,8 @@
 				26416D2F1791F14500C3B077 /* SearchViewController.m */,
 				26416D311791F14500C3B077 /* SearchViewController.xib */,
 				269263E91792498C00F1FF02 /* DetailViewController.h */,
-				269263EA1792498C00F1FF02 /* DetailViewController.m */,
+				260495731794623400C46E4E /* DetailViewController.m */,
+				265B3E671794585B006ECE26 /* DetailViewController~ipad.xib */,
 				2692640D179398E800F1FF02 /* DetailViewController.xib */,
 				269263F017926D3D00F1FF02 /* GradientView.h */,
 				269263F117926D3D00F1FF02 /* GradientView.m */,
@@ -227,12 +257,15 @@
 				26416D3A1791FFEB00C3B077 /* SearchResult.m */,
 				269263F81793822300F1FF02 /* Search.h */,
 				269263F91793822300F1FF02 /* Search.m */,
+				265B3E6E17945D3C006ECE26 /* MenuViewController.h */,
+				265B3E6F17945D3C006ECE26 /* MenuViewController.m */,
 				269263FF17938A2700F1FF02 /* UIImage+Resize.h */,
 				2692640017938A2700F1FF02 /* UIImage+Resize.m */,
 				26416D7817922CC300C3B077 /* AFNetworking */,
 				26416D6217920ED000C3B077 /* Icon */,
 				26416D3C179205A800C3B077 /* Images */,
 				269263E417923B1900F1FF02 /* Launch Images */,
+				260495771794651500C46E4E /* Launch Images iPad */,
 				26416D1D1791F14500C3B077 /* Supporting Files */,
 			);
 			path = StoreSearch;
@@ -415,6 +448,11 @@
 				2692640B179398E800F1FF02 /* DetailViewController.xib in Resources */,
 				269264121793991200F1FF02 /* LandscapeViewController.xib in Resources */,
 				265B3E6617939DB9006ECE26 /* Localizable.strings in Resources */,
+				265B3E691794585B006ECE26 /* DetailViewController~ipad.xib in Resources */,
+				2604957C1794651600C46E4E /* Default-Landscape@2x~ipad.png in Resources */,
+				2604957D1794651600C46E4E /* Default-Landscape~ipad.png in Resources */,
+				2604957E1794651600C46E4E /* Default-Portrait@2x~ipad.png in Resources */,
+				2604957F1794651600C46E4E /* Default-Portrait~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +478,12 @@
 				26416D9617922CC400C3B077 /* AFURLConnectionOperation.m in Sources */,
 				26416D9717922CC400C3B077 /* AFXMLRequestOperation.m in Sources */,
 				26416D9817922CC400C3B077 /* UIImageView+AFNetworking.m in Sources */,
-				269263EC1792498C00F1FF02 /* DetailViewController.m in Sources */,
 				269263F217926D3D00F1FF02 /* GradientView.m in Sources */,
 				269263F61793705E00F1FF02 /* LandscapeViewController.m in Sources */,
 				269263FA1793822300F1FF02 /* Search.m in Sources */,
 				2692640117938A2700F1FF02 /* UIImage+Resize.m in Sources */,
+				265B3E7017945D3C006ECE26 /* MenuViewController.m in Sources */,
+				260495741794623400C46E4E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +514,15 @@
 				265B3E6517939DB9006ECE26 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		265B3E671794585B006ECE26 /* DetailViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265B3E681794585B006ECE26 /* en */,
+				265B3E6D17945AE6006ECE26 /* zh-Hant */,
+			);
+			name = "DetailViewController~ipad.xib";
 			sourceTree = "<group>";
 		};
 		2692640417938F6E00F1FF02 /* NothingFoundCell.xib */ = {
@@ -588,6 +636,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -602,6 +651,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
